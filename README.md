@@ -18,3 +18,7 @@
   * git clone <repository_url>
   
   
+## To generate a requirements.txt file for your Python project, you can use the following command in your project directory:
+* pip freeze > requirements.txt
+## If you already have a requirements.txt file and want to install the dependencies listed in it, you can use the following command:
+* pip install -r requirements.txt
