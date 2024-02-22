@@ -13,4 +13,8 @@
 * git remote add origin https://github.com/csubham2370/How-to-use-Git-hub.git
 * git branch -M main
 * git push -u origin main
+  *  #--------------------------------------------------------------------------------------
+  ## Clone the repository: git clone
+  * git clone <repository_url>
+  
   
