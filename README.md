@@ -22,3 +22,13 @@
 * pip freeze > requirements.txt
 ## If you already have a requirements.txt file and want to install the dependencies listed in it, you can use the following command:
 * pip install -r requirements.txt
+
+## Creating a virtualenv
+* py -m venv .venv
+## Activate a virtual environment
+* .venv\Scripts\activate
+* To confirm the virtual environment is activated, check the location of your Python interpreter:
+* where python
+* .venv\Scripts\python
+## Deactivate a virtual environment
+* deactivate
