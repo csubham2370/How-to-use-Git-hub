@@ -76,7 +76,23 @@ Sure, here's a list of commonly used Git commands along with their descriptions:
 20. `git push --tags`: Pushes all tags to the remote repository.
 
 These are some of the most frequently used Git commands, but there are many more options and variations available depending on your workflow and specific needs. You can always use `git help` followed by a command name to get more information about a specific command.
+ #--------------------------------------------------------------------------------------
 
+It seems like you're trying to execute a PowerShell command to set the execution policy to unrestricted. Setting the execution policy to unrestricted allows all scripts to run without any restrictions.
+
+If you're encountering an error related to execution policy in PowerShell, here's how you can set it:
+
+1. **Open PowerShell as an Administrator**: Right-click on the PowerShell icon and select "Run as administrator".
+
+2. **Set the Execution Policy**: Run the following command:
+
+```bash
+Set-ExecutionPolicy Unrestricted
+```
+
+3. **Confirmation**: You'll be prompted to confirm the change. Type "Y" and press Enter to confirm.
+
+Please note that setting the execution policy to unrestricted can pose security risks, as it allows all scripts to run, including potentially harmful ones. Make sure to assess the risks before making this change, and consider setting the execution policy back to a more restrictive setting once you're done with the task that requires it.
 # 😁🤣
 
 
